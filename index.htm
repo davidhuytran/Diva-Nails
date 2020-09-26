@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Antic&family=Caveat&family=Cutive+Mono&family=Inconsolata:wght@500&family=Montserrat&family=Mukta+Malar:wght@300&family=Oxygen&family=PT+Sans&family=Pinyon+Script&family=Roboto+Mono:wght@300;400&family=Share+Tech+Mono&family=Source+Sans+Pro&family=Sriracha&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Arapey&family=Barlow+Condensed&family=Bellefair&family=Bitter&family=Cedarville+Cursive&family=Cinzel+Decorative:wght@400;700&family=Fira+Sans&family=Galada&family=Harmattan&family=Hind+Madurai&family=Kalam&family=Karma:wght@500&family=Marcellus+SC&family=Montez&family=Ovo&family=Parisienne&family=Rokkitt&family=Sacramento&family=Sanchez&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond&family=Julius+Sans+One&family=Marcellus+SC&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	h1 {
+	    font-family: 'Pinyon Script', cursive; font-size: 40px;
+	    padding:0;
+	    margin:0;
+	}
+	h2 {
+		font-family: 'Cinzel Decorative', cursive;
+		padding:0;
+		margin:0;
+		/*Sanchez*/
+	}
+	pre {
+		font-family: 'Cormorant Garamond', serif;
+		padding: 0;
+		margin: 0;
+		font-size:20px;
+	}
+	.topbar{
+		overflow:hidden;
+		width:100%;
+		top:0;
+		background-color:#b60000;
+		font-size:8px;
+		position:fixed;
+		z-index: 1;
+	}
+	img.phone{
+		position:fixed;
+		top:15px;
+		left:70px;
+		padding:0;
+		margin:0;
+	}
+	.topbar .phonenum{
+		font-family: 'Inconsolata', monospace;
+		color:white;
+		position:fixed;
+		width:80%;
+		top:15px;
+		left:99px;
+		font-size:14px;
+	}
+	img.clock{
+		position:fixed;
+		top:15px;
+		left: 215px;
+		padding:0;
+		margin:0;
+		z-index: 2;
+	}
+	.topbar .hours{
+		font-family: 'Inconsolata', monospace;
+		color:white;
+		position:absolute;
+		top:15px;
+		left:245px;
+		font-size:14px;
+		width:70%;
+	}
+	img.yelpicon{
+		position:relative;
+		top:0px;
+		left:1675px;
+		padding:0;
+		margin:0;
+	}
+	img.instaicon{
+		position:relative;
+		top:3px;
+		left:1650px;
+		padding:0;
+		margin:0;
+	}
+	.pageTitle{
+		background-color:green;
+		padding:0;
+	}
+	.gallery{
+		background-color:black;
+		padding:0;
+	}
+	.mySlides{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+	.w3-left, .w3-right, .w3-badge {cursor:pointer}
+	.w3-badge {height:13px;width:13px;padding:0}
+	.services{
+		background-color:lightgreen;
+		padding:0;
+		margin:0;
+	}
+	.contact{
+		background-color:lightblue;
+	}
+
+
+</style>
+</head>
+<title>Diva Nails & Spa</title>
+
+<div class="topbar">
+	<p style="float:left;"><img class="phone" src="images/phone.png" height="14px" width="15px"; ></p>
+	<div class="topbar phonenum">
+		619.449.2129 
+	</div>
+	<p style="float:left;"><img class="clock" src="images/clock.png" height="18px" width="18px"; ></p>
+	<div class="topbar hours">
+		9:30am - 7:00pm
+	</div>
+
+
+	<a href="https://www.instagram.com/divanailssanteeca/?fbclid=IwAR08lBHBZGvvCGomordAILOdokOlplVy03oibpPbYATA0WPg3v5TGfqeZG4">
+		<p style="float:left;"><img class="instaicon" src="images/instamerge.png" height="25px" width="100px"; ></p>
+	</a>
+	<a href="https://www.yelp.com/biz/diva-nails-and-spa-in-santee-santee">
+		<p style="float:left;"><img class="yelpicon" src="images/yelp.png" height="24px" width="48px"; ></p>
+	</a>
+</div>
+
+<div class="pageTitle">
+	<h1 style="color:#b60000; text-align:center;">
+		<br>Diva Nails & Spa
+		<br>
+	</h1>
+</div>
+<div class="gallery">
+	<div class="w3-content w3-display-container" style="max-width:800px">
+
+	  <img class="mySlides w3-animate-opacity" src="images/1.jpg" width=630 height=840>
+	  <img class="mySlides w3-animate-opacity" src="images/2.jpg" width=630 height=840>
+	  <img class="mySlides w3-animate-opacity" src="images/3.jpg" width=630 height=840>
+	  <div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle" style="width:100%">
+	    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+	    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+	    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+	  </div>
+	</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function currentDiv(n) {
+  clearTimeout(myVar);
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (slideIndex > dots.length) {slideIndex = 1};
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+  slideIndex++;
+  myVar = setTimeout(showDivs, 10000, slideIndex);
+}
+
+</script>
+
+<div class="services">
+	<h2 style="text-align:center; color:#b60000;"> <br>SERVICES & PRICING</h2>
+
+	<pre style="text-align:center;">
+
+	Signature Pedicure $25
+	Signature Manicure $15
+	Gel Manicure $30
+	Gel Pedicure $35
+	Fullset Acrylic $35
+	Dip Powder Fullset $40
+	Eyebrow Wax $10
+	Lips Wax $6
+	Underarms $15
+	Full Facial Wax $35
+
+	</pre>
+</div>
+
+<div class="contact">
+	<h2 style="text-align:center; color:#b60000;"> <br> CONTACT US </h2>
+
+	<pre style="text-align:center;">
+
+	8005 Mission Gorge Rd.
+	Santee, CA 92071 
+	619.449.2129
+	Mon-Sat: 9:30am - 7pm
+	10% off for all Military and Seniors
+
+
+	</pre>
+</div>
+
+</body>
+</html>
+
